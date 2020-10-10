@@ -16,3 +16,7 @@ web.listen-address | Address to listen on for web interface and telemetry.
 web.telemetry-path | Path under which to expose metrics.
 probe              | port or ip:port for probing
 status             | value for result, if 0 time for connection opening will be used
+
+## Notice
+
+Do not use make command to build code, it does not work well. Instead, running `go build port_exporter.go` to compile runnable code.
